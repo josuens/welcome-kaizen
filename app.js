@@ -17,7 +17,7 @@ const {
 
 client.on("ready", () => {
   console.log(`Bot Is Ready To Go!\nTag: ${client.user.tag}`);
-  client.user.setActivity("Welcoming new members!", { type: "PLAYING" });
+  client.user.setActivity("crkaizen.com", { type: "WATCHING" });
 });
 
 const categories = ["Config", "Other"];
