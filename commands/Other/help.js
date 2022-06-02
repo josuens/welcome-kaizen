@@ -31,7 +31,7 @@ module.exports.help = {
             color: Color || "RANDOM",
             title: `${client.user.username} Ayuda!`,
             thumbnail: { url: client.user.displayAvatarURL({ format: "jpg" }) },
-            description: `Type the following command for a specific command information -\n**${Prefix}Help <Command name>**\n\n**🕹 Config**\n${Config}\n\n**🔮 Other**\n${Other}\n\n**Useful Links**\nSupport server - [Click me](${
+            description: `Escriba el siguiente comando para obtener información de un comando específico -\n**${Prefix}Help <Command name>**\n\n**🕹 Config**\n${Config}\n\n**🔮 Other**\n${Other}\n\n**Useful Links**\nSupport server - [Click me](${
               Support || "https://bit.ly/34tvqau"
             })\nBot Link - [Click Me](https://discord.com/oauth2/authorize?client_id=${
               client.user.id
