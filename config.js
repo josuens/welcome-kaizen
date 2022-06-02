@@ -2,7 +2,7 @@
 /* Make sure to turn on Server Members intent on discord developer portal or you will get some error & won't be able to get welcome/goodbye message & image */
 
 const config = {
-  Token: "OTgxNzAzNTExMTczNjU2NjI2.GxpnrG.U0HGZZVpQ-LXlSP4mME2itkErJ7_1frwQMmYfY",
+  Token: "OTgxNzAzNTExMTczNjU2NjI2.GdoWK1.Hs8UgnEsDcskJyYlVP4X_zNSufFHw4kG2f9p4U",
   Default_Prefix: "+",
   Color: "RED",
   Welcome_Images: "https://t3.ftcdn.net/jpg/04/53/92/04/360_F_453920491_IrRZc9OZFQeEtMPO41cJ9R8V3vRMeApr.jpg",
