@@ -31,9 +31,9 @@ module.exports.help = {
             color: Color || "RANDOM",
             title: `${client.user.username} Ayuda!`,
             thumbnail: { url: client.user.displayAvatarURL({ format: "jpg" }) },
-            description: `Escriba el siguiente comando para obtener información de un comando específico -\n**${Prefix}Help <Command name>**\n\n**🕹 Config**\n${Config}\n\n**🔮 Other**\n${Other}\n\n**Links**\nSoporte - [Click aquí](https://www.instagram.com/josue.ns/)\nBot Link - [Click aquí](https://discord.com/oauth2/authorize?client_id=${
+            description: `Escriba el siguiente comando para obtener información de un comando específico -\n**${Prefix}Help <Comando>**\n\n**🕹 Configuración**\n${Config}\n\n**🔮 Otros**\n${Other}\n\n**Links**\nSoporte - [Click aquí](https://www.instagram.com/josue.ns/)\nBot Link - [Click aquí](https://discord.com/oauth2/authorize?client_id=${
               client.user.id
-            }&scope=bot&permissions=8)\n\nThank You So Much <3`,
+            }&scope=bot&permissions=8)`,
           },
         ],
       });
